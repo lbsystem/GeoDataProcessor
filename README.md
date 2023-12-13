@@ -1,6 +1,6 @@
-# GeoDataProcessor
+# geo
 
-`GeoDataProcessor` 是一个命令行工具，用于处理和输出特定地理数据文件中的IP地址或网站信息。它支持从GeoIP或GeoSite格式的文件中提取数据，并按国家或网站类别进行过滤。
+`geo` 是一个命令行工具，用于处理和输出特定地理数据文件中的IP地址或网站信息。它支持从GeoIP或GeoSite格式的文件中提取数据，并按国家或网站类别进行过滤。
 
 ## 安装
 
@@ -19,24 +19,24 @@
 ### 处理GeoIP数据
 
 - 处理指定国家（如中国）的所有IP地址：
-GeoDataProcessor -f path/to/geoip.dat -m ip -c cn
+```geo -f path/to/geoip.dat -m ip -c cn```
 
 
 
 - 仅处理IPv4地址：
-```GeoDataProcessor -f path/to/geoip.dat -m ip -c cn -v 4```
+```geo -f path/to/geoip.dat -m ip -c cn -v 4```
 
 
 
 - 仅处理IPv6地址：
-GeoDataProcessor -f path/to/geoip.dat -m ip -c cn -v 6
+```geo -f path/to/geoip.dat -m ip -c cn -v 6```
 
 
 
 ### 处理GeoSite数据
 
 - 处理特定类别（如`gfw`）的网站信息：
-GeoDataProcessor -f path/to/geosite.dat -m site -s gfw
+```geo -f path/to/geosite.dat -m site -s gfw```
 
 
 ## 输出
