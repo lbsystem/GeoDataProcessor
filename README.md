@@ -21,26 +21,23 @@
 - 处理指定国家（如中国）的所有IP地址：
 GeoDataProcessor -f path/to/geoip.dat -m ip -c cn
 
-diff
-Copy code
-- 仅处理IPv4地址：
-GeoDataProcessor -f path/to/geoip.dat -m ip -c cn -v 4
 
-diff
-Copy code
+
+- 仅处理IPv4地址：
+```GeoDataProcessor -f path/to/geoip.dat -m ip -c cn -v 4```
+
+
+
 - 仅处理IPv6地址：
 GeoDataProcessor -f path/to/geoip.dat -m ip -c cn -v 6
 
-markdown
-Copy code
+
 
 ### 处理GeoSite数据
 
 - 处理特定类别（如`gfw`）的网站信息：
 GeoDataProcessor -f path/to/geosite.dat -m site -s gfw
 
-shell
-Copy code
 
 ## 输出
 
