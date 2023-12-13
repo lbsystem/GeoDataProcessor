@@ -25,7 +25,15 @@
 
 - 仅处理IPv4地址：
 ```geo -f path/to/geoip.dat -m ip -c cn -v 4```
-
+除了可以指定国家还有各种模式
+cloudflare
+cloudfront
+facebook
+fastly
+google
+netflix
+telegram
+twitter
 
 
 - 仅处理IPv6地址：
