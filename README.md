@@ -45,7 +45,7 @@ twitter
 
 - 处理特定类别（如`gfw`）的网站信息：
 ```geo -f path/to/geosite.dat -m site -s gfw```
-
+可以指定各种类型 ```geolocation-!cn  category-ads-all cn google netflix facebook apple 等各种类型```
 
 ## 输出
 
