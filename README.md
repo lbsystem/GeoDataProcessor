@@ -33,7 +33,7 @@ fastly
 google
 netflix
 telegram
-twitter
+twitter  等等
 
 
 - 仅处理IPv6地址：
