@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-
+  
   build:
     runs-on: ubuntu-latest
     steps:
@@ -21,10 +21,10 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.20'
-
+   
     - name: Build
       env:
         GOARCH: amd64
-      run: go build -v 
+      run: go mod inti geo && go mod tidy && go build -v 
 
   
