@@ -25,6 +25,6 @@ jobs:
     - name: Build
       env:
         GOARCH: amd64
-      run: go build -v ./...
+      run: go build -v 
 
   
