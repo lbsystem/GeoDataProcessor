@@ -25,6 +25,6 @@ jobs:
     - name: Build
       env:
         GOARCH: amd64
-      run: go mod inti geo && go mod tidy && go build -v 
+      run: go mod init geo && go mod tidy && go build -v 
 
   
